@@ -139,7 +139,7 @@ a:hover {
 @media (max-width : 700px) {
     #header {
         padding: 20px;
-        min-height: 750px;
+        min-height: 500px;
     }
 
     .wave::before {
