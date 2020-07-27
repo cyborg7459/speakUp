@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick Class Schedule</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+<div id="header" class="wave mb-5">
+    <h1 class="display-2">Speak Up !!!</h1>
+    <p class="lead">Being able to speak to express our needs, thoughts and emotions is one of the most basic necessities for humans. However, all of us our not fortunate enough to have this amazing gift of speech.</p>
+    <p class="lead">This site uses the Web Speech API to build an app which enables such people to "Speak Up"</p>
+    <a href="#input-region" class="mt-4 btn btn-success btn-lg">Get Started</a>
+</div>
+
+<div id="input-region">
+    <div class="container p-0">
+        <h1 class="text-center display-4">Welcome to Speak Up.....</h1>
+    </div>
+    <div id="form-region">
+        <div class="form-group">
+            <label for="#text-input">Enter what you want to speak</label>
+            <textarea id="text-input" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="#voice-list">Select voice</label>
+            <select id="voice-list" class="form-control"></select>
+        </div>
+        <button id="speak-btn" class="btn btn-lg btn-block btn-warning my-2 mt-4">Speak</button>
+    </div>
+    
+</div>
+
+<div id="task-list">
+    <div class="container p-0">
+        <h1 class="display-4 text-center">Select from list of some common tasks</h1>
+        <hr class="mb-5">
+        <div class="row justify-content-center m-0">
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="display-card">
+                    <img src="./img/water.jfif" class="card-img">
+                    <div class="card-body p-2 p-xl-3">
+                        <p class="card-text text-center">I'm thirsty</p>
+                    </div>
+                </div>              
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="display-card">
+                    <img src="./img/sleep.jfif" class="card-img">
+                    <div class="card-body p-2 p-xl-3">
+                        <p class="card-text text-center">I'm sleepy</p>
+                    </div>
+                </div>              
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="display-card">
+                    <img src="./img/food.jfif" class="card-img">
+                    <div class="card-body p-2 p-xl-3">
+                        <p class="card-text text-center">I'm hungry</p>
+                    </div>
+                </div>              
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="display-card">
+                    <img src="./img/tired.jfif" class="card-img">
+                    <div class="card-body p-2 p-xl-3">
+                        <p class="card-text text-center">I'm tired</p>
+                    </div>
+                </div>              
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="display-card">
+                    <img src="./img/confused.png" class="card-img">
+                    <div class="card-body p-2 p-xl-3">
+                        <p class="card-text text-center">I'm confused</p>
+                    </div>
+                </div>              
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="display-card">
+                    <img src="./img/happy.jfif" class="card-img">
+                    <div class="card-body p-2 p-xl-3">
+                        <p class="card-text text-center">I'm happy</p>
+                    </div>
+                </div>              
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="display-card">
+                    <img src="./img/angry.jfif" class="card-img">
+                    <div class="card-body p-2 p-xl-3">
+                        <p class="card-text text-center">I'm angry</p>
+                    </div>
+                </div>              
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="display-card">
+                    <img src="./img/hurt.jfif" class="card-img">
+                    <div class="card-body p-2 p-xl-3">
+                        <p class="card-text text-center">I'm hurt</p>
+                    </div>
+                </div>              
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="display-card">
+                    <img src="./img/scared.jfif" class="card-img">
+                    <div class="card-body p-2 p-xl-3">
+                        <p class="card-text text-center">I'm scared</p>
+                    </div>
+                </div>              
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="display-card">
+                    <img src="./img/play.jfif" class="card-img">
+                    <div class="card-body p-2 p-xl-3">
+                        <p class="card-text text-center">I want to play</p>
+                    </div>
+                </div>              
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="display-card">
+                    <img src="./img/home.jfif" class="card-img">
+                    <div class="card-body p-2 p-xl-3">
+                        <p class="card-text text-center">I want to go home</p>
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </div>
+</div>  
+
+<div id="footer">
+    <h1 class="mb-0 text-center">Designed & developed by Shreyash Kumar Singh</h1>
+    <p class="lead text-center mb-0 mt-2"> <a href="https://cyborg7459.github.io/MyWebsite/" class="text-white" >Visit my website</a> </p>
+    <hr>
+    <div id="connect-links">
+        <div class="row my-3">
+            <div class="text-center">
+                <a href="https://www.linkedin.com/in/shreyash-singh-33a68318b">
+                    <img src="./img/linkedin.png" alt="Linkedin" class="connect-icon">
+                </a>
+                <a href="https://github.com/cyborg7459">
+                    <img src="./img/github.png" alt="Github" class="connect-icon">
+                </a>  
+                <a href="https://www.facebook.com/shreyash.kumarsingh.5">
+                    <img src="./img/facebook.png" class="connect-icon" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/sks_0101/">
+                    <img src="./img/insta.png" class="connect-icon" alt="Instagram">
+                </a>
+                <a href="https://wa.me/917459861775">
+                    <img src="./img/whatsapp.png" alt="Whatsapp" class="connect-icon">
+                </a>
+                <a href="mailto:shreyash.ksingh.cd.eee19@itbhu.ac.in">
+                    <img src="./img/gmail.png" alt="Gmail" class="connect-icon">
+                </a>                                
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="mb-0 lead text-center">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" class="lead text-white">Freepik</a> from <a href="https://www.flaticon.com/" class="lead text-white" title="Flaticon">www.flaticon.com</a></p>
+    <p class="text-center mb-0"><a href="https://github.com/cyborg7459/MyWebsite" class="lead text-white">View source code for this site</a></p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
